@@ -1,0 +1,24 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    color: #d1d5d8;
+    text-decoration: none;
+}
+
+body{
+    background-color: #242424;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div{
+    width: 100px;
+    height: 100px;
+}
