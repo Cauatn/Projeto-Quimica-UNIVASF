@@ -12,13 +12,36 @@ body{
     background-color: #242424;
 }
 
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tabela{
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 40px 68px 68px;
 }
 
-.box div{
-    width: 100px;
-    height: 100px;
+.elemento{
+    width: 62px;
+    height: 62px;
+    margin: 2px;
+    padding: 0.25rem;
+}
+
+.elemento_numero{
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 12px;
+    float: right;
+    display: inline-block;
+}
+
+
+.elemento_simbolo{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    float: left;
+    display: inline-block;
+}
+
+#id{
+    grid-area: 1/1/1/1;
 }
