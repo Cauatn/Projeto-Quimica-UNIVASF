@@ -42,6 +42,81 @@ body{
     display: inline-block;
 }
 
-#id{
+.elemento_nome{
+    font-size: 8px;
+    margin-bottom: 3px;
+    clear: both;
+}
+
+.elemento_peso{
+    line-height: 1;
+    font-size: 11px;
+}
+
+#H {
     grid-area: 1/1/1/1;
+}
+
+#He{
+    grid-area: 1/18/1/18;
+}
+
+#Li {
+    grid-area: 2/1/2/1;
+}
+
+#Be {
+    grid-area: 2/2/2/2;
+}
+
+#B {
+    grid-area: 2/13/2/13;
+}
+
+#C {
+    grid-area: 2/14/2/14;
+}
+
+#N {
+    grid-area: 2/15/2/15;
+}
+
+#O{
+    grid-area: 2/16/2/16;
+}
+
+#F{
+    grid-area: 2/17/2/17;
+}
+
+#Ne{
+    grid-area: 2/18/2/18;
+}
+
+#Na{
+    grid-area: 3/1/3/1;
+}
+#Mg {
+    grid-area: 3/2/3/2;
+}
+#Al{
+    grid-area: 3/13/3/13;
+}
+#Si{
+    grid-area: 3/14/3/14;
+}
+#P{
+    grid-area: 3/15/3/15;
+}
+#S{
+    grid-area: 3/16/3/16;
+}
+#Cl{
+    grid-area: 3/17/3/17;
+}
+#Ar{
+    grid-area: 3/18/3/18;
+}
+#K{
+    grid-area: 4/1/4/1;
 }
