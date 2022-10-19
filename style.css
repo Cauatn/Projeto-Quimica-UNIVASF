@@ -10,6 +10,7 @@
 
 body{
     background-color: #242424;
+    padding: 40px;
 }
 
 .tabela{
@@ -155,7 +156,7 @@ body{
     grid-area: 4/10/4/10;
 }
 #Cu{
-    grid-area: 4/11/4/1;
+    grid-area: 4/11/4/11;
 }
 #Zn{
     grid-area: 4/12/4/12;
@@ -178,4 +179,58 @@ body{
 
 #Kr {
     grid-area: 4/18/4/18;
+}
+#Rb {
+    grid-area: 5/1/5/1;
+}
+#Sr {
+    grid-area: 5/2/5/2;
+}
+#Y {
+    grid-area: 5/3/5/3;
+}
+#Zr {
+    grid-area: 5/4/5/4;
+}
+#Nb {
+    grid-area: 5/5/5/5;
+}
+#Mo {
+    grid-area: 5/6/5/6;
+}
+#Tc {
+    grid-area: 5/7/5/7;
+}
+#Ru {
+    grid-area: 5/8/5/8;
+}
+#Rh {
+    grid-area: 5/9/5/9;
+}
+#Pd {
+    grid-area: 5/10/5/10;
+}
+#Ag {
+    grid-area: 5/11/5/11;
+}
+#Cd {
+    grid-area: 5/12/5/12;
+}
+#In {
+    grid-area: 5/13/5/13;
+}
+#Sn {
+    grid-area: 5/14/5/14;
+}
+#Sb {
+    grid-area: 5/15/5/15;
+}
+#Te {
+    grid-area: 5/16/5/16;
+}
+#I {
+    grid-area: 5/17/5/17;
+}
+#Xe {
+    grid-area: 5/18/5/18;
 }
