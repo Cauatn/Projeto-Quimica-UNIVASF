@@ -15,14 +15,21 @@ body{
 .tabela{
     display: grid;
     grid-column: auto;
-    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 40px 68px 68px;
+    grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+    grid-template-columns: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+    margin-bottom: 20px;
 }
 
-.elemento{
+.elemento {
     width: 62px;
     height: 62px;
-    margin: 2px;
+    margin: 2px 2px;
     padding: 0.25rem;
+}
+
+.elemento a {
+    width: 100%;
+    height: 47px;
 }
 
 .elemento_numero{
@@ -30,7 +37,6 @@ body{
     text-align: right;
     margin-bottom: 12px;
     float: right;
-    display: inline-block;
 }
 
 
@@ -39,7 +45,6 @@ body{
     font-weight: 400;
     margin: 0;
     float: left;
-    display: inline-block;
 }
 
 .elemento_nome{
@@ -117,6 +122,60 @@ body{
 #Ar{
     grid-area: 3/18/3/18;
 }
+
 #K{
     grid-area: 4/1/4/1;
+}
+#Ca{
+    grid-area: 4/2/4/2;
+}
+
+#Sc{
+    grid-area: 4/3/4/3;
+}
+#Ti {
+    grid-area: 4/4/4/4;
+}
+#V{
+    grid-area: 4/5/4/5;
+}
+#Cr {
+    grid-area: 4/6/4/6;
+}
+#Mn{
+    grid-area: 4/7/4/7;
+}
+#Fe {
+    grid-area: 4/8/4/8;
+}
+#Co {
+    grid-area: 4/9/4/9;
+}
+#Ni{
+    grid-area: 4/10/4/10;
+}
+#Cu{
+    grid-area: 4/11/4/1;
+}
+#Zn{
+    grid-area: 4/12/4/12;
+}
+#Ga {
+    grid-area: 4/13/4/13;
+}
+#Ge {
+    grid-area: 4/14/4/14;
+}
+#As {
+    grid-area: 4/15/4/15;
+}
+#Se {
+    grid-area: 4/17/4/17;
+}
+#Br{
+    grid-area: 4/16/4/16;
+}
+
+#Kr {
+    grid-area: 4/18/4/18;
 }
