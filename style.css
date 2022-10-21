@@ -9,8 +9,19 @@
 }
 
 body{
-    background-color: #242424;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
     padding: 40px;
+    line-height: 1.35em;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .tabela{
@@ -21,10 +32,17 @@ body{
     margin-bottom: 20px;
 }
 
+a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
 .elemento {
     width: 62px;
     height: 62px;
-    margin: 2px 2px;
+    margin: 2px;
     padding: 0.25rem;
 }
 
@@ -55,10 +73,45 @@ body{
 }
 
 .elemento_peso{
-    line-height: 1;
     font-size: 11px;
+    line-height: 1;
 }
 
+/* cores dos elementos */
+
+.nao_metais {
+    background: #522D6D;
+}
+
+.alkali {
+    background: #0ABCDE;
+}
+
+.alkalino {
+    background: #00548B;
+}
+
+.basico {
+    background: #ED7700;
+}
+
+.semi-metal {
+    background: #AD1E2D;
+}
+
+.halogen {
+    background: #7474C1;
+}
+
+.nobres {
+    background: #693DE2;
+}
+
+.transição {
+    background: #3A3B3C;
+}
+
+/* posição dos elementos*/
 #H {
     grid-area: 1/1/1/1;
 }
@@ -171,10 +224,10 @@ body{
     grid-area: 4/15/4/15;
 }
 #Se {
-    grid-area: 4/17/4/17;
+    grid-area: 4/16/4/16;
 }
 #Br{
-    grid-area: 4/16/4/16;
+    grid-area: 4/17/4/17;
 }
 
 #Kr {
