@@ -15,6 +15,21 @@ body{
     line-height: 1.35em;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 158px;
+    height: 57px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 1340px;
+    margin: 10px auto;
 }
 
 main {
