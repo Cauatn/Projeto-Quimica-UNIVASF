@@ -1,0 +1,28 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  }
+  
+  #results{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+  }
+  
+  label, input{
+    margin-top: 0.5em;
+    margin-bottom:0.5em;
+    }
+  
+  input[type=button], input[type=reset]{
+    padding:0.5em;
+  }
+  
+  form{
+      margin: 1em;
+      padding: 1em;
+      background-color: #fafafa;
+    border-radius: 0.5em;
+  }
+  
+  fieldset{
+    border-radius: 0.5em;
+  }
